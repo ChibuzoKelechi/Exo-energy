@@ -1,6 +1,7 @@
 import banner from "./assets/3.jpg";
 import Button from "./Components/Button"; 
 import NavBar from "./Components/NavBar";
+import Stats from "./Components/Stats";
 // import Slideshow from "./Components/Slideshow";
 import InfoAssets from "./Pages/Info";
 
@@ -18,6 +19,7 @@ const Home = () => {
              <InfoAssets/>
               <section>
                {/* <Slideshow/> */}
+              <Stats/>
                 
               </section>
            </main>
@@ -49,9 +51,3 @@ function Hero({img}) {
         </article>
      );
 }
-
-const Stats = () => {
-  return (  );
-}
- 
-export default Stats;
