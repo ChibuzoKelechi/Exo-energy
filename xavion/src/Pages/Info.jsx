@@ -1,4 +1,5 @@
 import { FaOilWell, FaSolarPanel} from "react-icons/fa6";
+import Button from "../Components/Button";
 
 /* eslint-disable react/prop-types*/
 function InfoAssets() {
@@ -12,16 +13,22 @@ function InfoAssets() {
          </p>
         </article>
 
-        <Invest 
-         heading="Oil and Gas investments"
-         text='You can sponsor a portion of our gas/oil well drilling projects with your investment capital and earn dividends daily.'
-         icon={<FaOilWell style={{color:"black", fontSize:'40px', cursor:'pointer'}}/>}
-        />
+          <Invest 
+            heading="Oil and Gas investments"
+            text='You can sponsor a portion of our gas/oil well drilling projects with your investment capital and earn dividends daily.'
+            icon={<FaOilWell style={{color:"black", fontSize:'40px', cursor:'pointer'}}/>}
+          />
 
-        <Invest
-         heading='Solar Energy Investments'
-         text='You can sponsor a portion of our solar farm projects with your investment capital and earn dividends daily.'
-         icon={<FaSolarPanel className='icon' style={{color:"black", fontSize:'40px', cursor:'pointer'}}/>}
+          <Invest
+            heading='Solar Energy Investments'
+            text='You can sponsor a portion of our solar farm projects with your investment capital and earn dividends daily.'
+            icon={<FaSolarPanel className='icon' style={{color:"black", fontSize:'40px', cursor:'pointer'}}/>}
+          />
+
+        <Button 
+         className='ml-4 bg-black p-4 text-white rounded-md text-xs font-semibold 
+         bg-gradient-to-r from-blue-500 to-green-400'
+         text='LEARN MORE'
         />
         
        </section>
@@ -32,7 +39,7 @@ export default InfoAssets;
 
 const Invest = ({heading, text, icon}) => {
   return ( 
-    <article className="flex px-5 justify-center align-middle">
+    <article className="flex my-3 px-5 py-3 justify-center align-middle">
       
      <div className="w-1/4 mt-4">
       {icon}

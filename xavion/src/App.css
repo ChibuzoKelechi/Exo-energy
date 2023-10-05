@@ -55,6 +55,42 @@
   width: 100%;
 }
 
-.icon{
-  
+.icon:hover{
+  color: blue;
+}
+
+
+.slideshow-container {
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slideshow-container img {
+  width: 100%;
+  display: block;
+  transition: all 1s;
+}
+
+.slideshow-container button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.slideshow-container button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slideshow-container button:first-of-type {
+  left: 0;
+}
+
+.slideshow-container button:last-of-type {
+  right: 0;
 }

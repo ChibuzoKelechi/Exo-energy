@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
-const Button = ({text}) => {
+const Button = ({text, className}) => {
     return ( 
-        <button className="p-3 text-sm font-semibold bg-white">
+        <button className={className}>
          {text}
         </button>
      );

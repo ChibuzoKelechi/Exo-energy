@@ -1,6 +1,7 @@
 import banner from "./assets/3.jpg";
 import Button from "./Components/Button"; 
 import NavBar from "./Components/NavBar";
+// import Slideshow from "./Components/Slideshow";
 import InfoAssets from "./Pages/Info";
 
 
@@ -15,6 +16,10 @@ const Home = () => {
            <main>
              <Hero img={banner}/>
              <InfoAssets/>
+              <section>
+               {/* <Slideshow/> */}
+                
+              </section>
            </main>
 
            <footer>
@@ -37,9 +42,16 @@ function Hero({img}) {
                     <h4 className="text-xs  font-bold">DELIVERING ENERGY SOLUTIONS</h4>
                     <h1 className="text-white text-5xl py-4 my-2">Invest in Oil/Gas and Solar Energy</h1>
                     <Button 
+                      className='p-3 text-sm font-semibold bg-white'
                       text='GET STARTED'/>
                 </div>
          </div>
         </article>
      );
 }
+
+const Stats = () => {
+  return (  );
+}
+ 
+export default Stats;
