@@ -1,4 +1,4 @@
-import banner from "./assets/1.jpg";
+import banner from "./assets/3.jpg";
 import Button from "./Components/Button"; 
 import NavBar from "./Components/NavBar";
 import InfoAssets from "./Pages/Info";

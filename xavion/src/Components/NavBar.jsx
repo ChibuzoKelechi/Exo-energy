@@ -10,8 +10,8 @@ const NavBar = () => {
             </div>
 
             <div className="flex iconbox">
-              <FaSearch style={{color:"limegreen", fontSize:'30px'}}/>
-                <FaBars style={{color:"black", fontSize:'30px'}}/>
+              <FaSearch style={{color:"limegreen", fontSize:'30px', cursor:'pointer'}}/>
+              <FaBars style={{color:"black", fontSize:'30px', cursor:'pointer'}}/>
             </div>
         </nav>
      );
