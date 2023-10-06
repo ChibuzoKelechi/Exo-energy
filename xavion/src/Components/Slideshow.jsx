@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 // import images from "../DataFiles/data.js";
 
 const Slideshow = () => {
+  
     const images = [
         '../assets/1.jpg',
         '../assets/2.jpg',
@@ -18,7 +19,7 @@ const Slideshow = () => {
     
         // Clear the interval when the component is unmounted
         return () => clearInterval(interval);
-      }, []);
+      }, [images.length]);
 
     return ( 
         <div className="slideshow-container">

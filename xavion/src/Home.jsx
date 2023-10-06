@@ -1,5 +1,6 @@
 import banner from "./assets/3.jpg";
 import Button from "./Components/Button"; 
+import Features from "./Components/Features";
 import NavBar from "./Components/NavBar";
 import Stats from "./Components/Stats";
 // import Slideshow from "./Components/Slideshow";
@@ -20,7 +21,7 @@ const Home = () => {
               <section>
                {/* <Slideshow/> */}
               <Stats/>
-                
+                <Features/>
               </section>
            </main>
 

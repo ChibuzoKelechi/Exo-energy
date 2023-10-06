@@ -97,3 +97,8 @@ main, .assets{
 .slideshow-container button:last-of-type {
   right: 0;
 }
+
+.number{
+  font-size: 5em;
+  font-weight: 900;
+}
