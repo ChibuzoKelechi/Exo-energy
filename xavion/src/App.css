@@ -12,6 +12,10 @@
   margin-top: 2.5rem;
 }
 
+main, .assets{
+  background-image: url('./assets/bg-pattern.jpg');
+}
+
 .hero img{
   object-fit: cover;
   width: 100%;
@@ -45,7 +49,6 @@
 
 .assets{
   background-color: white;
-  background-image: url('./assets/bg-pattern.jpg');
 }
 
 .nav{

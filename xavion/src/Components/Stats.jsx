@@ -1,39 +1,46 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
-import { FaDollarSign } from "react-icons/fa6";
+import { FaDollarSign, FaOilCan, FaPeopleGroup, FaPerson} from "react-icons/fa6";
 
 const Stats = () => {
     return ( 
-       <article className="bg-green-500 m-3 rounded-lg">
+       <article className="bg-[#03cc46] m-3 rounded-xl p-5">
 
          <StatValue 
-          icon={<FaDollarSign/>}
+          icon={<FaDollarSign style={{color:"white", fontSize:'40px'}}/>}
           count='3'
-          title='TOTAL INVESTMENTS'
+          title='total investors'
           unit='B+'
          />
 
         <StatValue 
-          icon={<FaDollarSign/>}
+          icon={<FaOilCan style={{color:"white", fontSize:'40px'}}/>}
           count='500'
-          title='COMPLETED PROJECTS'
+          title='completed projects'
           unit='+'
          />
 
         <StatValue 
-          icon={<FaDollarSign/>}
+          icon={<FaPerson style={{color:"white", fontSize:'40px'}}/>}
           count='100'
-          title='ENERGY INVESTORS'
+          title='energy investors'
           unit='K+'
-
          />
+
+       <StatValue 
+          icon={<FaPeopleGroup style={{color:"white", fontSize:'40px'}}/>}
+          count='100'
+          title='expert teams'
+          unit='K+'
+         />
+
        </article>
      );
 }
  
 export default Stats;
 
-function Counter({ targetValue }) {
+function Counter({ targetValue, unit}) {
     const [count, setCount] = useState(0);
   
     useEffect(() => {
@@ -44,21 +51,21 @@ function Counter({ targetValue }) {
       }
     }, [count, targetValue]);
   
-    return <div>{count}</div>;
+    return <div>{count} {unit} </div>;
   }
 
   function StatValue({icon, title, count, unit}) {
     return ( 
-        <div className="flex text-white">
+        <div className="flex text-white my-8 mb-2">
           <div>
             {icon}
           </div>
-          <div className="">
-            <h1>
-              <Counter targetValue={count} />{unit}
+          <div className="pl-3">
+            <h1 className="text-3xl font-bold">
+              <Counter targetValue={count} unit={unit}/> 
                 
             </h1>
-            <p>{title}</p>
+            <p className="uppercase text-xs font-semibold">{title}</p>
           </div> 
          
         </div>
