@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
-// import images from "../DataFiles/data.js";
+import images from "../DataFiles/data.js";
 
 const Slideshow = () => {
   
-    const images = [
-        '../assets/1.jpg',
-        '../assets/2.jpg',
-        '../assets/3.jpg',
-        '../assets/4.jpg'
-    ];
+    // const images = [
+    //     '../assets/1.jpg',
+    //     '../assets/2.jpg',
+    //     '../assets/3.jpg',
+    //     '../assets/4.jpg'
+    // ];
     
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -19,7 +19,7 @@ const Slideshow = () => {
     
         // Clear the interval when the component is unmounted
         return () => clearInterval(interval);
-      }, [images.length]);
+      }, []);
 
     return ( 
         <div className="slideshow-container">

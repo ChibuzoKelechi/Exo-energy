@@ -2,7 +2,7 @@
 const Reason = ({text, head, number}) => {
     return ( 
         <article className="m-3 pl-6">
-         <h1 className="text-20xl text-blue-600 number">{number}</h1>
+         <h1 className="text-20xl text-blue-500 hover:text-blue-700 transition-all number">{number}</h1>
            <h2 className="text-[#03cc46] font-bold text-2xl">
             {head}
            </h2>

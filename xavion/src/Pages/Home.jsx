@@ -1,33 +1,40 @@
-import banner from "./assets/3.jpg";
-import Button from "./Components/Button"; 
-import Features from "./Components/Features";
-import NavBar from "./Components/NavBar";
-import Stats from "./Components/Stats";
+import banner from "../assets/3.jpg";
+import Button from "../Components/Button"; 
+import Features from "../Components/Features";
+import NavBar from "../Components/NavBar";
+import Process from "../Components/Process";
+import ProjectPlans from "../Components/ProjectPlans";
+import Stats from "../Components/Stats";
 // import Slideshow from "./Components/Slideshow";
-import InfoAssets from "./Pages/Info";
+import InfoAssets from "./Info";
 
 
 const Home = () => {
     return ( 
         <section>
 
-            <header>
-              <NavBar/>
-            </header>
+          <header>
+            <NavBar/>
+          </header>
 
            <main>
              <Hero img={banner}/>
-             <InfoAssets/>
+              <InfoAssets/>
+
               <section>
-               {/* <Slideshow/> */}
-              <Stats/>
-                <Features/>
+                {/* <Slideshow/> */}
+                 <Stats/>
+                 <Features/>
+                 <Process/>
+                <ProjectPlans/>
               </section>
+
            </main>
 
            <footer>
 
            </footer>
+
         </section>
      );
 }
