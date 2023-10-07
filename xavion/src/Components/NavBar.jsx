@@ -4,9 +4,9 @@ import xavionLogo from "../assets/Xavion-Web-Logo-2.png";
 
 const NavBar = () => {
     return ( 
-        <nav className="bg-white flex justify-between h-20 p-4 nav">
+        <nav className="bg-white flex justify-between h-20 p-4 nav shadow-lg">
             <div>
-               <img src={xavionLogo} alt="xavioenergylogo" className="w-40" /> 
+               <img src={xavionLogo} alt="xavioenergylogo" className="w-48" /> 
             </div>
 
             <div className="flex iconbox">

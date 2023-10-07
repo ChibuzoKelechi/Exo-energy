@@ -35,12 +35,10 @@ export default Process;
 
 function Step({head, info}) {
     return (
-        <article className='step flex'>
-          <div>
-            <img src={xavionLogo} alt="xavionlogo" className='xavionlogo'/>
-          </div>
+        <article className='step flex min-w-full p-3 my-5'>
+            <img src={xavionLogo} alt="xavionlogo" className='object-contain mt-2'/>
 
-          <div className='text-left pl-8 my-5'>
+          <div className='text-left pl-5'>
             <h3 className='text-lg font-semibold'>{head}</h3>
             <p className='text-neutral-700'>{info}</p>
           </div>
