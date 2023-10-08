@@ -111,3 +111,19 @@
 .step{
   align-items: start;
 }
+
+.icon, .features{
+   display: grid;
+   place-items: center;
+   margin: auto;
+}
+
+.features p{
+  display: flex;
+  padding: 10px 0;
+}
+
+.features p h2{
+  font-weight: 500;
+  padding-left: 10px;
+}

@@ -45,7 +45,7 @@ export default Home;
 // eslint-disable-next-line react/prop-types
 function Hero({img}) {
     return ( 
-        <article className="hero">
+        <article className="hero" id="top">
          <div className="banner">
             <img src={img} alt="banner"></img>
                 <div className="herotext">
