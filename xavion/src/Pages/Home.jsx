@@ -4,6 +4,7 @@ import Features from "../Components/Features";
 import NavBar from "../Components/NavBar";
 import Process from "../Components/Process";
 import ProjectPlans from "../Components/ProjectPlans";
+import Reviews from "../Components/Reviews";
 import Stats from "../Components/Stats";
 // import Slideshow from "./Components/Slideshow";
 import InfoAssets from "./Info";
@@ -27,6 +28,7 @@ const Home = () => {
                  <Features/>
                  <Process/>
                 <ProjectPlans/>
+                <Reviews/>
               </section>
 
            </main>
