@@ -6,6 +6,7 @@ import Process from "../Components/Process";
 import ProjectPlans from "../Components/ProjectPlans";
 import Reviews from "../Components/Reviews";
 import Stats from "../Components/Stats";
+import GetStarted from "../Components/BlueCard";
 // import Slideshow from "./Components/Slideshow";
 import InfoAssets from "./Info";
 
@@ -18,7 +19,7 @@ const Home = () => {
             <NavBar/>
           </header>
 
-           <main>
+           <main className="lg:w-2/3 mx-auto">
              <Hero img={banner}/>
               <InfoAssets/>
 
@@ -29,6 +30,7 @@ const Home = () => {
                  <Process/>
                 <ProjectPlans/>
                 <Reviews/>
+                <GetStarted/>
               </section>
 
            </main>

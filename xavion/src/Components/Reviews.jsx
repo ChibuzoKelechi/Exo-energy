@@ -34,6 +34,7 @@ function ReviewBoard({review, customer}) {
                 <p className="review text-neutral-600 text-sm">
                    "{review}"
                 </p>
+                
                 <h2 className="customername text-md py-5">{customer}</h2>
             </div>
 

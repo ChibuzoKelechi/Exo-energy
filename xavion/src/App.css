@@ -127,3 +127,8 @@
   font-weight: 500;
   padding-left: 10px;
 }
+
+.bluecontainer{
+  background-color: white;
+  background-image: url('../src/assets/6.jpg');
+}
