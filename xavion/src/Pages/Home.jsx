@@ -9,6 +9,7 @@ import Stats from "../Components/Stats";
 import GetStarted from "../Components/BlueCard";
 // import Slideshow from "./Components/Slideshow";
 import InfoAssets from "./Info";
+import Footer from "../Components/Footer";
 
 
 const Home = () => {
@@ -36,7 +37,7 @@ const Home = () => {
            </main>
 
            <footer>
-
+             <Footer/>
            </footer>
 
         </section>
