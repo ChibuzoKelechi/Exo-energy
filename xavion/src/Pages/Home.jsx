@@ -10,6 +10,7 @@ import GetStarted from "../Components/BlueCard";
 // import Slideshow from "./Components/Slideshow";
 import InfoAssets from "./Info";
 import Footer from "../Components/Footer";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -56,9 +57,12 @@ function Hero({img}) {
                 <div className="herotext">
                     <h4 className="text-xs  font-bold">DELIVERING ENERGY SOLUTIONS</h4>
                     <h1 className="text-white text-5xl py-4 my-2">Invest in Oil/Gas and Solar Energy</h1>
-                    <Button 
+                    
+                    <Link to='/guide'>
+                      <Button 
                       className='p-3 text-sm font-semibold bg-white'
                       text='GET STARTED'/>
+                    </Link>
                 </div>
          </div>
         </article>
