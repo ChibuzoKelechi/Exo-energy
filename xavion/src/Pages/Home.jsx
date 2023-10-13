@@ -11,6 +11,7 @@ import GetStarted from "../Components/BlueCard";
 import InfoAssets from "./Info";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
+import SideNav from "../Components/SideNav";
 
 
 const Home = () => {
@@ -19,9 +20,11 @@ const Home = () => {
 
           <header>
             <NavBar/>
+
           </header>
 
            <main className="lg:w-2/3 mx-auto">
+            <SideNav/>
              <Hero img={banner}/>
               <InfoAssets/>
 

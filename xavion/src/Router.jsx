@@ -6,7 +6,7 @@ import Guide from  './Pages/Guide'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home/>,
   },
   {
     path: "/guide",

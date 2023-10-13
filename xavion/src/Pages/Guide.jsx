@@ -5,8 +5,10 @@ import Process from "../Components/Process";
 
 const Guide = () => {
     return (  
-        <section>
-            <HeroBanner/>
+        <section className="pt-10">
+            <HeroBanner
+             Herotext='How it Works'
+            />
             <Process/>
             <GetStarted/>
             <Footer/>
