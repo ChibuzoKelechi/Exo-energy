@@ -1,5 +1,4 @@
 import './App.css'
-import NavBar from './Components/NavBar'
 import Router from './Router'
 // import AppRouter from './Router'
 // import Home from "./Pages/Home";
@@ -9,12 +8,11 @@ import Router from './Router'
 function App() {
 
   return (
-    <>
-     <NavBar/>
-     
+    <>     
       <Router/>
     </>
 
+    // Wrong router setup
     // <Router>
     //  <section>
     //   <NavBar/>

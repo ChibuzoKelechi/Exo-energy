@@ -5,12 +5,12 @@ const Footer = () => {
     return (
         <section className="bg-[#020513]  text-neutral-100">
             <article className="py-20 px-10">
-              <div className="flex justify-between">
-                <h1 className="text-3xl font-bold mr-5">Powering lives and the future of Electricity</h1>
+              <div className="flex justify-between lg:justify-center">
+                <h1 className="text-3xl font-bold mr-5 lg:text-center">Powering lives and the future of Electricity</h1>
                 <FaBoltLightning style={{fontSize:'40px', paddingTop:'10px'}}/>
               </div>
 
-              <article className="lg:flex justify-evenly"> 
+              <article className="lg:flex lg:text-center justify-evenly"> 
                 <ContactBit
                  title='call us'
                  info='+44 7459 485303'
@@ -43,13 +43,13 @@ function Copywright() {
 
         <h3>Copyright © 2023 Xavion Energy, LLC. All Rights Reserved.</h3>
 
-        <div className="socialicons my-5 w-1/9 mx-auto flex justify-evenly p-5">
+        <div className="socialicons my-5 w-1/9 mx-auto flex justify-evenly lg:w-1/3 p-5">
             <FaFacebook/>
             <FaInstagram/>
             <FaLinkedinIn/>
         </div>
 
-        <div className="w-1/7 mx-auto flex justify-evenly">
+        <div className="w-1/7 mx-auto flex justify-evenly lg:w-1/3">
             <h4 className="text-neutral-300">About</h4>
             <h4 className="text-neutral-300">Legal Terms</h4>
             <h4 className="text-neutral-300">Privacy Policy</h4>
