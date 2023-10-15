@@ -5,9 +5,9 @@ const HeroBanner = ({Herotext}) => {
     return ( 
         <article className="hero " id="top">
          <div className="banner flex justify-center ">
-           <img src={img} alt="banner"></img>
+           <img src={img} alt="banner"/>
                <div className="herotext flex items-center">
-                   <h1 className="text-white text-3xl py-4 my-2">{Herotext}</h1>
+                   <h1 className="text-white text-3xl py-4 my-2 font-semibold">{Herotext}</h1>
                 
                </div>
         </div>

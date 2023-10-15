@@ -11,6 +11,7 @@ import GetStarted from "../Components/BlueCard";
 import InfoAssets from "./Info";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
+import BackToTop from "../Components/BackToTop";
 // import SideNav from "../Components/SideNav";
 
 
@@ -35,6 +36,7 @@ const Home = () => {
                 <ProjectPlans/>
                 <Reviews/>
                 <GetStarted/>
+                <BackToTop/>
               </section>
 
            </main>
