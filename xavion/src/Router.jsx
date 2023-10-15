@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './Pages/Home'
 import Guide from  './Pages/Guide'
 import WhyInvest from "./Pages/WhyInvest";
+import Projects from "./Pages/Projects";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/why-invest-in-energy",
     element: <WhyInvest/>,
+  },
+  {
+    path: "/investment-projects",
+    element: <Projects/>,
   }
 ]);
 

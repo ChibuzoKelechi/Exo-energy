@@ -82,6 +82,12 @@ const SideNav = () => {
            <li>
              <Link to='/guide'>Guide</Link>
            </li>
+           <li>
+             <Link to='/why-invest-in-energy'>Why invest in energy</Link>
+           </li>
+           <li>
+             <Link to='/investment-projects'>investment projects</Link>
+           </li>
            {/* <li>
              <Link></Link>
            </li>
