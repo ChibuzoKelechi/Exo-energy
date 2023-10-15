@@ -25,7 +25,7 @@ const Home = () => {
           </header>
 
            <main className="lg:w-2/3 mx-auto">
-             <Hero img={banner}/>
+             <Hero img={banner} className='lg:w-full'/>
               <InfoAssets/>
 
               <section>

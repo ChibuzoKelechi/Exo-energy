@@ -17,7 +17,7 @@ const NavBar = () => {
   //   };
 
   function openNav() {
-    document.getElementById('sidenav').style.width = '80%'
+    document.getElementById('sidenav').style.width = '300px'
     document.getElementById('home').classList.toggle = 'dark'
   }
 
