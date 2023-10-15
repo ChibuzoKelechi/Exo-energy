@@ -71,10 +71,10 @@ const SideNav = () => {
 
   return ( 
       <article className="sidenav" id="sidenav">
-        <h1 onClick={closeNav} className="cursor-pointer">
+        <h1 onClick={closeNav} className="cursor-pointer p-2">
           <FaX/>
         </h1>
-         <nav>
+         <nav className='uppercase text-sm'>
          <ul>
            <li>
              <Link to='/'>Home</Link>
@@ -88,9 +88,10 @@ const SideNav = () => {
            <li>
              <Link to='/investment-projects'>investment projects</Link>
            </li>
-           {/* <li>
-             <Link></Link>
+           <li>
+             <Link to='/referral-program'>referral program</Link>
            </li>
+           {/*
            <li>
              <Link></Link>
            </li>

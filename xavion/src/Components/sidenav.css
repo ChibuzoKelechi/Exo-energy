@@ -4,18 +4,19 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: white;
     color: black;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
     padding-top: 60px;
 }
 
 .sidenav a {
-  padding: 10px 15px 10px 32px;
+  padding: 10px 15px;
     text-decoration: none;
-    font-size: 25px;
     display: block;
     transition: 0.3s;
 }
+
+

@@ -3,6 +3,7 @@ import Home from './Pages/Home'
 import Guide from  './Pages/Guide'
 import WhyInvest from "./Pages/WhyInvest";
 import Projects from "./Pages/Projects";
+import ReferralPage from "./Pages/ReferralPage";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/investment-projects",
     element: <Projects/>,
+  },
+  {
+    path: "/referral-program",
+    element: <ReferralPage/>,
   }
 ]);
 
