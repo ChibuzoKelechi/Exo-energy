@@ -133,23 +133,3 @@
   background-image: url('../src/assets/6.jpg');
 }
 
-.sidenav {
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 10px 15px 10px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
