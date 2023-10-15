@@ -2,7 +2,7 @@
 import Button from "./Button";
 const GetStarted = () => {
     return ( 
-        <section className="bluecontainer px-10 pt-20">
+        <section className="bluecontainer px-10 pt-20 ">
            <Bluecard
             head='Want to own Energy Assets'
             text="Energy Investments are great opportunities for financial breakthrough. It's the future! Invest and secure your future today!! "

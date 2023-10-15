@@ -94,7 +94,7 @@ html{
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.slideshow-container button:first-of-type {
+.slideshow-container but70ton:first-of-type {
   left: 0;
 }
 
@@ -138,6 +138,7 @@ html{
 }
 
 .top-button{
+  padding: 5px;
   position: fixed;
   background-color: #120ef7;
   color: white;
@@ -146,4 +147,19 @@ html{
   width: 40px;
   top: 90%;
   right: 10px;
+}
+
+.desknav{
+  display: none;
+}
+
+.desknav ul li{
+  padding: 5px 15px;
+  font-weight: 500;
+
+}
+
+.desknav ul li:hover{
+  color: #120ef7;
+  transition: 0.3s;
 }

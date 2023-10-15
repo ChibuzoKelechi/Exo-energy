@@ -17,7 +17,7 @@ import BackToTop from "../Components/BackToTop";
 
 const Home = () => {
     return ( 
-        <section>
+        <section id="home">
 
           <header>
             <NavBar/>
@@ -64,7 +64,7 @@ function Hero({img}) {
                     
                     <Link to='/guide'>
                       <Button 
-                      className='p-3 text-sm font-semibold bg-white'
+                      className='p-3 shadow-md text-sm font-semibold bg-white'
                       text='GET STARTED'/>
                     </Link>
                 </div>

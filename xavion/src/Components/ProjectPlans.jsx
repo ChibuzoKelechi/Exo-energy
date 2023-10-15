@@ -11,6 +11,7 @@ const ProjectPlans = () => {
              <h1 className=" text-2xl py-5">Investment Projects</h1>
          </div>
 
+        <div className='lg:flex lg:flex-wrap'>
          <Plan
            tier='Lite'
            icon={<FaOilCan style={{color: 'white', fontSize: '30px'}}/>}
@@ -49,7 +50,7 @@ const ProjectPlans = () => {
         period='90 Days'
       />
          
-
+       </div>
 
         </section>
      );
@@ -60,7 +61,7 @@ export default ProjectPlans;
 
 function Plan({tier, icon, max, min, dividend, period}) {
     return (  
-        <article className="bg-white text-black my-10 py-10 rounded-xl shadow-lg hover:shadow-5xl mx-auto w-4/5">
+        <article className="bg-white text-black my-10 py-10 rounded-xl shadow-lg hover:shadow-5xl mx-auto w-4/5 lg:w-[400px] lg:mx-2 lg:ml-4">
           
           <div className=''>
             <h1 className='text-xl font-semibold'>XAV- {tier}</h1>
